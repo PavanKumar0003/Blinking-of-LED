@@ -6,12 +6,12 @@ D2 Onboard LED --> (PA6)
 Task: Blinking of LED using GPIO-A registers and RCC registers. The D2 onboard LED is connected to GPIO-A, Pin-6. RCC provied clock source to all the peripherals in the chip.
 
 Step-1: define all the register OFFSET and BASE addresses of RCC and GPIO-A <br>
-Step-2: define GPIO-A pin 6 address
-Step-3: In main function, enable the clock source to GPIO-A and Provied the Pin number to Mode-R register of GPIO-A
-Step-4: In while loop, Turn-ON The LED and Turn-OFF the LED.
-Step-5: Creat a for loop insted of using Delay function. This for loop acts as Delay because of the number of loop iterations.
-Step-6: Build the Project.
-Step-7: Run the Project.
+Step-2: define GPIO-A pin 6 address <br>
+Step-3: In main function, enable the clock source to GPIO-A and Provied the Pin number to Mode-R register of GPIO-A <br>
+Step-4: In while loop, Turn-ON The LED and Turn-OFF the LED. <br>
+Step-5: Creat a for loop insted of using Delay function. This for loop acts as Delay because of the number of loop iterations. <br>
+Step-6: Build the Project. <br>
+Step-7: Run the Project. <br>
 
 
 # More Details about the Board
