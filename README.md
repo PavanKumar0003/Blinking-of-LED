@@ -1,7 +1,7 @@
 # Project-1 Blinking-of-LED
 // Program is written in Embedded-C using STM32 IDE
-Target MicroController --> STM32F407VET6
-D2 Onboard LED --> (PA6) 
+Target MicroController --> STM32F407VET6<br>
+D2 Onboard LED --> (PA6) <br>
 ![STM32F407VET6_STM32_F4VE_V2 0-1](https://user-images.githubusercontent.com/107934117/208341683-b5d432e0-44c0-485c-aebb-9b5fe58eb4c4.jpg)
 Task: Blinking of LED using GPIO-A registers and RCC registers. The D2 onboard LED is connected to GPIO-A, Pin-6. RCC provied clock source to all the peripherals in the chip.
 
