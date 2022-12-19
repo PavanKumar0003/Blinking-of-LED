@@ -1,7 +1,18 @@
-# Blinking-of-LED
-Both structure based and register based codes are included in one file
+# Project-1 Blinking-of-LED
+// Program is written in Embedded-C using STM32 IDE
+Target MicroController --> STM32F407VET6
+D2 Onboard LED --> (PA6) 
 
-# Summery
+Task: Blinking of LED using GPIO-A registers and RCC registers. The D2 onboard LED is connected to GPIO-A, Pin-6. RCC provied clock source to all the peripherals in the chip.
 
-![Screenshot 2022-05-27 114428](https://user-images.githubusercontent.com/107934117/208308901-1224ca10-101a-4a7a-a8db-746706ec5c62.png)
-![Arduino-Mega-Pinout](https://user-images.githubusercontent.com/107934117/208308936-e910de54-d791-40d1-b9f0-fee3d925fd15.jpg)
+Step-1: define all the register OFFSET and BASE addresses of RCC and GPIO-A
+Step-2: define GPIO-A pin 6 address
+Step-3: In main function, enable the clock source to GPIO-A and Provied the Pin number to Mode-R register of GPIO-A
+Step-4: In while loop, Turn-ON The LED and Turn-OFF the LED.
+Step-5: Creat a for loop insted of using Delay function. This for loop acts as Delay because of the number of loop iterations.
+Step-6: Build the Project.
+Step-7: Run the Project.
+
+
+#More Details about the Board
+https://stm32-base.org/boards/STM32F407VET6-STM32-F4VE-V2.0.html#USB-connector
